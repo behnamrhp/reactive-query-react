@@ -1,0 +1,70 @@
+{
+  "name": "reactive-query/react",
+  "private": false,
+  "version": "0.2.7",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/reactive-query-react.cjs.js",
+  "module": "./dist/reactive-query-react.esm.js",
+  "types": "./dist/reactive-query-react.d.ts",
+  "exports": {
+    "import": "./dist/reactive-query-react.esm.js",
+    "require": "./dist/reactive-query-react.cjs.js",
+    "types": "./dist/reactive-query-react.d.ts",
+    "default": "./dist/reactive-query-react.cjs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/behnamrhp/reactive-query.git"
+  },
+  "author": {
+    "name": "Behnam RHP",
+    "email": "behnamrahimpour74@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "reactive",
+    "model",
+    "mvvm",
+    "frontend",
+    "react",
+    "adapter"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:types": "tsc -p tsconfig.build.json --emitDeclarationOnly",
+    "test": "vitest",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "rxjs": "^7.8.0",
+    "reactive-query": "^0.2.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^22.13.10",
+    "@types/react": "^18.3.12",
+    "eslint": "^8.57.0",
+    "react": "^18.3.1",
+    "rxjs": "^7.8.1",
+    "reactive-query": "file:../",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "prettier": "^3.3.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0",
+    "vitest": "^3.1.4",
+    "vite-plugin-dts": "^4.5.4",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+} 
