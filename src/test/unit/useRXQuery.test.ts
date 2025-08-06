@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import useRXQuery from '../../useRXQuery';
+import { useRXQuery } from '../../useRXQuery';
 
 // Mock the hook since we can't test React hooks directly without React Testing Library
 describe('useRXQuery', () => {

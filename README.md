@@ -5,9 +5,9 @@ This is a React adapter library for [reactive-query](https://github.com/behnamrh
 ## Installation
 
 ```bash
-npm install reactive-query/react
+npm install reactive-query-react
 # or
-yarn add reactive-query/react
+yarn add reactive-query-react
 ```
 
 ## Peer Dependencies
@@ -23,7 +23,7 @@ This library requires the following peer dependencies:
 
 ```tsx
 import React from 'react';
-import { useRXQuery } from 'reactive-query/react';
+import { useRXQuery } from 'reactive-query-react';
 import { yourQueryModel } from './your-query-model';
 
 function MyComponent() {
@@ -45,7 +45,7 @@ function MyComponent() {
 
 ```tsx
 import React from 'react';
-import { useRXQuery } from 'reactive-query/react';
+import { useRXQuery } from 'reactive-query-react';
 import { userQueryModel } from './user-query-model';
 
 function UserProfile({ userId }: { userId: string }) {

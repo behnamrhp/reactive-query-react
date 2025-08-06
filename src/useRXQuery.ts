@@ -17,7 +17,7 @@ export type RxQueryOptions<T> = {
  * @param configs
  * @returns react state data
  */
-const useRXQuery = <DATA>(
+export const useRXQuery = <DATA>(
   query:
     | ((configs?: Partial<RxQueryOptions<DATA>>) => Observable<QueryResponse<DATA>>)
     | undefined,
@@ -71,5 +71,3 @@ const useRXQuery = <DATA>(
 
   return data;
 };
-
-export default useRXQuery; 
