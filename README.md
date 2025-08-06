@@ -69,7 +69,7 @@ function UserProfile({ userId }: { userId: string }) {
 
 ## API Reference
 
-### `useRXQuery<T, P = undefined>`
+### `useRXQuery<T>`
 
 A React hook that converts observable query model data to React state, bridging the push strategy of RxJS to the pull strategy of React.
 
